@@ -1,0 +1,27 @@
+# env
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# logs
+*.log
+
+# screenshots
+*.png
+*.jpg
+*.html
+
+# db dumps
+*.sql
+
+# docker volumes
+data/
+grafana-storage/
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
