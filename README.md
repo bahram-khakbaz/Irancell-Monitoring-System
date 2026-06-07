@@ -102,8 +102,8 @@ services:
     container_name: irancell_postgres
     restart: always
     environment:
-      POSTGRES_USER: irancell_user
-      POSTGRES_PASSWORD: SecretPassword123
+      POSTGRES_USER: Your User Set
+      POSTGRES_PASSWORD: Your Password set
       POSTGRES_DB: irancell_db
     ports:
       - "5432:5432"
@@ -120,8 +120,8 @@ services:
       - .env
     environment:
       DB_HOST: db
-      DB_USER: irancell_user
-      DB_PASSWORD: SecretPassword123
+      DB_USER: User POSTGRES
+      DB_PASSWORD: Password POSTGRES
       DB_NAME: irancell_db
       DB_PORT: 5432
 
