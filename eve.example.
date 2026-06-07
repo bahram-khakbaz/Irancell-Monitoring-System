@@ -1,0 +1,13 @@
+USERNAME=your_irancell_username
+PASSWORD=your_password
+
+ALERT_EMAIL=email1@example.com,email2@example.com
+
+SMTP_USER=smtp_user
+SMTP_PASS=smtp_password
+
+DB_HOST=db
+DB_USER=irancell_user
+DB_PASSWORD=SecretPassword123
+DB_NAME=irancell_db
+DB_PORT=5432
